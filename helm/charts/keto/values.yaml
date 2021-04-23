@@ -100,7 +100,7 @@ keto:
       - id: 0
         name: properties
     dsn: memory
-  autoMigrate: false
+  autoMigrate: true
 
 resources:
   {}

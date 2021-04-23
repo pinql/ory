@@ -1,3 +1,5 @@
-keto:
-  config:
-    dsn: memory
+# unused for testing
+
+# keto:
+#   config:
+#     dsn: postgres://postgres:postgres@postgres:5432/postgres

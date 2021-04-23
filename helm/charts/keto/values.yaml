@@ -98,7 +98,7 @@ keto:
         port: 4467
     namespaces:
       - id: 0
-        name: sample
+        name: properties
     dsn: memory
   autoMigrate: false
 

@@ -24,3 +24,13 @@ helm install \
 
 secretKeyRef expolained:
 <https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#define-container-environment-variables-with-data-from-multiple-secrets>
+
+helm exemple
+
+```yaml
+- name: DSN # PRISMA_CONFIG
+    valueFrom:
+    secretKeyRef:
+        name: {{ include "keto.secretname" . }} # prisma-configmap
+        key: dsn # PRISMA_CONFIG
+```
